@@ -3,7 +3,7 @@ alcool = 0
 gasolina = 0 
 diesel = 0
 
-while condicao == True:
+while condicao:
     num = int(input())
     if num == 4:
         condicao = False
